@@ -5,6 +5,7 @@ const baseX = require('base-x')
 const base16 = require('./base16')
 const base32 = require('./base32')
 const base64 = require('./base64')
+const mnemonic = require('./mnemonic')
 
 // name, code, implementation, alphabet
 const constants = [
@@ -23,7 +24,8 @@ const constants = [
   ['base64', 'm', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'],
   ['base64pad', 'M', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='],
   ['base64url', 'u', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'],
-  ['base64urlpad', 'U', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=']
+  ['base64urlpad', 'U', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_='],
+  ['mnemonic', '-', mnemonic, 'abcdefghijklmnopqrstuvwxyz-']
 ]
 
 const names = constants.reduce((prev, tupple) => {

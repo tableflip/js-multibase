@@ -25,7 +25,7 @@ const constants = [
   ['base64pad', 'M', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='],
   ['base64url', 'u', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'],
   ['base64urlpad', 'U', base64, 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_='],
-  ['mnemonic', '-', mnemonic, 'abcdefghijklmnopqrstuvwxyz-']
+  ['mnemonic', '.', mnemonic, 'abcdefghijklmnopqrstuvwxyz-']
 ]
 
 const names = constants.reduce((prev, tupple) => {

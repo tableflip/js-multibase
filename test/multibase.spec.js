@@ -87,12 +87,12 @@ const supportedBases = [
   ['base64urlpad', 'fooba', 'UZm9vYmE='],
   ['base64urlpad', 'foobar', 'UZm9vYmFy'],
 
-  ['mnemonic', 'f', '-canoe'],
-  ['mnemonic', 'fo', '-edward-album'],
-  ['mnemonic', 'foo', '-screen-update-jet'],
-  ['mnemonic', 'foob', '-organic-soprano-report'],
-  ['mnemonic', 'fooba', '-organic-soprano-report--camera'],
-  ['mnemonic', 'foobar', '-organic-soprano-report--alarm-alcohol']
+  ['mnemonic', 'f', '.canoe'],
+  ['mnemonic', 'fo', '.edward-album'],
+  ['mnemonic', 'foo', '.screen-update-jet'],
+  ['mnemonic', 'foob', '.organic-soprano-report'],
+  ['mnemonic', 'fooba', '.organic-soprano-report--camera'],
+  ['mnemonic', 'foobar', '.organic-soprano-report--alarm-alcohol']
 ]
 
 describe('multibase', () => {
